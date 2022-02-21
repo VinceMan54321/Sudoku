@@ -15,10 +15,15 @@ header {
 
 h1 {
     font-size: 40pt;
+    margin-bottom: 7px;
+}
+
+img {
+    height: 25%;
+    width: 25%;
 }
 
 #setup-game {
-    /* display: flex; */
     justify-content: center;
 }
 
@@ -90,4 +95,6 @@ p.incorrect {
 footer {
     background-color: lightgrey;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }

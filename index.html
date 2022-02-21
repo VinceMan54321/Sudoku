@@ -9,6 +9,8 @@
     <header>
         <h1>Sudoku!</h1>
         <div id="setup-game">
+            <img id="logo" src="stockImage.png">
+            <div id="like"></div>
             <div id="diff">
                 <h2>Select your Difficulty: </h2>
                 <label><input id="diff-1" type="radio" name="diff" value="easy" checked>Piece of Cake</label>
@@ -49,6 +51,9 @@
                 <p id="nine">9</p>
             </div>
         </div>
+        <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+        <script src="like_button.js"></script>
     </body>
     <footer>
         <p>Created by Vincent Huang</p>
